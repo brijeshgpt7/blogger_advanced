@@ -3,4 +3,5 @@ class ApplicationController < ActionController::Base
   # For APIs, you may want to use :null_session instead.
    render :text="okokoko"  
    protect_from_forgery with: :exception
+   redirect_to users_path
 end
